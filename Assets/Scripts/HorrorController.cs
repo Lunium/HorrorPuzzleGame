@@ -49,6 +49,8 @@ public class HorrorController : MonoBehaviour {
                 StartCoroutine(Flee());
                 yield break;
             }
+            
+            yield return null;
         }
     }
 
